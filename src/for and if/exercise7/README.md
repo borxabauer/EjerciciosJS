@@ -5,7 +5,7 @@
 
 ## for
 ```javascript
-for (let idx; idx > 10; idx++) {
-    console.log(idx);
+for (let i; i > 10; i++) {
+    console.log(i);
 }
 ```

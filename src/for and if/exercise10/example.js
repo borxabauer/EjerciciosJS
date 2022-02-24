@@ -7,8 +7,8 @@ for (let outer = 0; outer < end ; outer++) {
 
 console.log("\nUsing array length:");
 const numbers = [13,12,11,10,9];
-for ( let idx = 0; idx < numbers.length; idx++ ) {
-    console.log(numbers[idx]);
+for ( let i = 0; i < numbers.length; i++ ) {
+    console.log(numbers[i]);
 }
 
 console.log("\nSwith array elements");
