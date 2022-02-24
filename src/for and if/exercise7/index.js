@@ -1,8 +1,7 @@
 const numbers = ["Frodo","Gandalf","Turin","Sauron","Saruman","Bilbo"];
 
-// Put your code herconst numbers = ["Frodo","Gandalf","Turin","Sauron","Saruman","Bilbo"];
 
-for(let i=3;i<=5;i++){
-    console.log(numbers[i]);
+for(let idx=3;idx<=5;idx++){
+    console.log(numbers[idx]);
 }
 
