@@ -1,10 +1,13 @@
-number = 0;
+let number = 0;
 
-function plusone(number) {
-    number = number + 1;
+function plusone(number1) {
+    number = number1 + 1;
+    plusone(number);
     return number;
+
 }
 
-plusone(number);
+
+
 
 console.log(number)
