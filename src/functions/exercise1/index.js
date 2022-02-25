@@ -4,12 +4,17 @@ const numbers3 = [22,6,4,4,5,7,8,9,12,11];
 const numbers4 = [22,9,6,8,5,7,8,9,12,11];
 
 function minorValue(array) {
+let minorValue = array[0];
+for ( let i=0 ; i <array.lenght ; i++) {
+if ( minorValue > array[i]);
+    minorValue = array[i];
+   }
 
-    // Put your code here
+return minorValue;
 
 }
 
-const minor1 = minorValue(numbers1);
+const minor1 = minorValue(numbers1); 
 console.log(minor1);
 console.log(minorValue(numbers2));
 console.log(minorValue(numbers3));
