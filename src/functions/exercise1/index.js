@@ -3,11 +3,11 @@ const numbers2 = [22,7,4,3,5,7,8,9,12,11];
 const numbers3 = [22,6,4,4,5,7,8,9,12,11];
 const numbers4 = [22,9,6,8,5,7,8,9,12,11];
 
-function minorValue(array) {
-let minorValue = array[0];
-for ( let i=0 ; i <array.lenght ; i++) {
-if ( minorValue > array[i]);
-    minorValue = array[i];
+function minorValue(numbers) {
+let minorValue = numbers[0];
+for ( let i=0 ; i <numbers.lenght ; i++) {
+if ( minorValue > numbers[i]);
+    minorValue = numbers[i];
    }
 
 return minorValue;
